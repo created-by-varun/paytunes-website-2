@@ -215,17 +215,6 @@ p {
 	width: 100%;
 }
 
-.skills {
-	margin-bottom: 10px;
-}
-
-.skills img {
-	margin: 10px;
-}
-
-.skills img:first-child {
-	margin-left: 0;
-}
 
 .description {
 	padding: 12px 50px;
