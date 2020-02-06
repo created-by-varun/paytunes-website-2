@@ -215,6 +215,29 @@ p {
 =ABOUT SECTION
 ========================================================================== */
 
+#sec2 {
+	background-image: url(https://www.paytunes.in/paytunes/assets/music/img/service-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#sec2 h2{
+	color: black;
+}
+
+#sec2 h3{
+	color: black;
+}
+
+#sec2 p{
+	color: black;
+}
+
+#sec2 ul{
+	color: black;
+}
+
 .scoopy {
 	background: url(https://images.pexels.com/photos/1337753/pexels-photo-1337753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 	background-attachment: fixed;
@@ -238,39 +261,6 @@ p {
 #sec3 {
 	background: url(https://himigatliwanag.files.wordpress.com/2016/01/milky-way.jpg) top center fixed no-repeat;
 	background-size: cover;
-}
-
-.slick-slide img {
-	margin: 0 auto;
-}
-
-.slick-slide {
-	outline: none;
-}
-
-.slick-dots li button:before {
-	color: #aaa;
-}
-
-.slick-dots li.slick-active button:before {
-	color: white;
-}
-
-.slick-custom-nav {
-	margin-top: 20px;
-	cursor: pointer;
-}
-
-.slick-slide a:focus {
-	cursor: move;
-}
-
-.prev-slide {
-	float: left;
-}
-
-.next-slide {
-	float: right;
 }
 
 
