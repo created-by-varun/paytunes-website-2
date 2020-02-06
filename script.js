@@ -364,7 +364,7 @@ function stoppie(d, b) {
 
 /* =================== brand images slideshow ==================== */
 
-var timer = 3500;
+var timer = 4000;
 
 var i = 0;
 var max = $('#c > li').length;
