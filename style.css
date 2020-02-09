@@ -817,6 +817,14 @@ li.creativity .piesite>#slice>.pie {
 	margin-bottom: 250px;
 }
 
+#d {
+	margin-top: 20px;
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 250px;
+}
+
 ol>li {
 	width: 25%;
 	list-style-type: none;
