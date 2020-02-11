@@ -398,3 +398,19 @@ setInterval(function () {
 }, timer2);
 
 /* ============================ */
+
+var imageSlides = ["img/brands/spotify.jpeg", "img/brands/wynk.jpeg", "img/brands/gaana.jpg", "img/brands/hungama.jpg", "img/brands/hubhopper.png", "img/brands/ivm.png"];
+    $(function () {
+        var i = 0;
+        $("#brandImg").css("background-image", "url(" + imageSlides[i] + ")");
+        setInterval(function () {
+            i++;
+            if (i == imageSlides.length) {
+                i = 0;
+            }
+            $("#brandImg").fadeOut("slow", function () {
+                $(this).css("background-image", "url(" + imageSlides[i] + ")");
+                $(this).fadeIn("slow");
+            });
+        }, 2000);
+    });

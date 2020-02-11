@@ -738,3 +738,10 @@ li img {
 }
 
 /* ================================= */
+
+#brandImg {
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+}
