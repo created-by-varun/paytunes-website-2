@@ -94,37 +94,6 @@ $(document).ready(function () {
         ]
     });
 
-    // CUSTOM SLICK NAV
-    $('.next-slide').click(function () {
-        $(".slick-slider").slick('slickNext');
-    });
-
-    $('.prev-slide').click(function () {
-        $(".slick-slider").slick('slickPrev');
-    });
-
-
-    $('.slick-slider').on('edge', function (event, slick, direction) {
-        if (direction === 'left') {
-            $(".next-slide").attr('src', 'https://himigatliwanag.files.wordpress.com/2016/01/slick-next-edge.png');
-        }
-    }).on('swipe', function (event, slick, direction) {
-        if (direction === 'right') {
-            $(".next-slide").attr('src', 'https://himigatliwanag.files.wordpress.com/2016/01/slick-next-fill.png');
-        }
-    });
-
-    $('.slick-slider').on('edge', function (event, slick, direction) {
-        if (direction === 'right') {
-            $(".prev-slide").attr('src', 'https://himigatliwanag.files.wordpress.com/2016/01/slick-prev-edge.png');
-        }
-    }).on('swipe', function (event, slick, direction) {
-        if (direction === 'left') {
-            $(".prev-slide").attr('src', 'https://himigatliwanag.files.wordpress.com/2016/01/slick-prev-fill.png');
-        }
-    });
-
-
 });
 
 window.onresize = function (event) {
@@ -365,7 +334,7 @@ function stoppie(d, b) {
     }
 }
 
-/* =================== brand images slideshow ==================== */
+/* =================== brand images slideshow [Row 1] ==================== */
 
 var timer = 4000;
 
