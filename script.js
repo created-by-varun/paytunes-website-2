@@ -398,7 +398,7 @@ setInterval(function () {
 }, timer2);
 
 /* ============================ */
-
+/*
 function sliceSize(dataNum, dataTotal) {
     return (dataNum / dataTotal) * 360;
   }
@@ -489,3 +489,4 @@ function sliceSize(dataNum, dataTotal) {
   }
   
   createPieCharts();
+*/
