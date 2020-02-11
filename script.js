@@ -399,18 +399,25 @@ setInterval(function () {
 
 /* ============================ */
 
-var imageSlides = ["img/brands/spotify.jpeg", "img/brands/wynk.jpeg", "img/brands/gaana.jpg", "img/brands/hungama.jpg", "img/brands/hubhopper.png", "img/brands/ivm.png"];
-    $(function () {
-        var i = 0;
-        $("#brandImg").css("background-image", "url(" + imageSlides[i] + ")");
-        setInterval(function () {
-            i++;
-            if (i == imageSlides.length) {
-                i = 0;
-            }
-            $("#brandImg").fadeOut("slow", function () {
-                $(this).css("background-image", "url(" + imageSlides[i] + ")");
-                $(this).fadeIn("slow");
-            });
-        }, 2000);
-    });
+var imageSlides = [
+    "https://developer.spotify.com/assets/branding-guidelines/icon4@2x.png",
+    "https://wynk.in/assets/icons/icon-192x192.png",
+    "https://www.customercarecontactnumber.in/wp-content/uploads/2017/09/Hungama.com-Customer-Care-Number.png",
+    "https://a10.gaanacdn.com/images/social/gaana_social.jpg",
+    "https://lh3.googleusercontent.com/proxy/2AspWVMmiZffwQXqNOYffK8WiTlYMgZQJZn2PHRwiHHGzCMjmhHj4HeZ2F1R9Pv1j43DQdvTSsFJnPsOkIwphRR5T5H2",
+    "https://pbs.twimg.com/profile_images/956411671148249088/bk5AA4uR_400x400.jpg"
+];
+$(function () {
+    var i = 0;
+    $("#brandImg").css("background-image", "url(" + imageSlides[i] + ")");
+    setInterval(function () {
+        i++;
+        if (i == imageSlides.length) {
+            i = 0;
+        }
+        $("#brandImg").fadeOut("slow", function () {
+            $(this).css("background-image", "url(" + imageSlides[i] + ")");
+            $(this).fadeIn("slow");
+        });
+    }, 2000);
+});
