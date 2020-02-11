@@ -83,7 +83,7 @@ p {
 	font-weight: 400;
 	font-style: italic;
 	font-size: 50px;
-	margin-top: 2%;
+	margin-top: 1%;
 }
 
 #logo span {
@@ -115,13 +115,12 @@ p {
 
 
 .header-info {
-	position: absolute;
-	bottom: 0;
+	font-size: 10px;
 	width: 100%;
 	left: 0;
 	right: 0;
 	margin-left: 0px;
-	margin-bottom: 5%;
+	font-family: 'Roboto', sans-serif;
 }
 
 #top-nav {
@@ -222,7 +221,7 @@ p {
 }
 
 .description {
-	padding: 12px 50px;
+	padding: 8px 20px;
 	border: 1px solid #4d4d4d;
 }
 
@@ -233,11 +232,16 @@ p {
 
 .glow {
 	color: #fff;
-	font-size: 70px;
+	font-size: 80px;
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
 	-moz-animation: glow 1s ease-in-out infinite alternate;
 	animation: glow 1s ease-in-out infinite alternate;
 	letter-spacing: 3px;
+	z-index: 999;
+  }
+
+  .numText{
+	  padding-top: 25%;
   }
   
   @-webkit-keyframes glow {
@@ -741,7 +745,9 @@ li img {
 
 #brandImg {
 	background-repeat: no-repeat;
-	height: 200px;
-	width: 200px;
+	height: 180px;
+	width: 180px;
 	background-size: cover;
+	border: none;
+	outline: none;
 }
