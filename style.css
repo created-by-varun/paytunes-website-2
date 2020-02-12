@@ -209,6 +209,9 @@ p {
 	transition: all .3s ease-in-out;
 }
 
+.brand{
+	max-width: 100px;
+}
 
 /* ==========================================================================
 =ABOUT SECTION
@@ -742,12 +745,3 @@ li img {
 }
 
 /* ================================= */
-
-#brandImg {
-	background-repeat: no-repeat;
-	height: 180px;
-	width: 180px;
-	background-size: cover;
-	border: none;
-	outline: none;
-}
