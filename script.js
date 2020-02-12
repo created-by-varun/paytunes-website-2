@@ -396,5 +396,3 @@ setInterval(function () {
     $("#d > li").eq(i + 3).css('left', '75%').addClass('active').css('transition-delay', '2s');
 
 }, timer2);
-
-/* ============================ */
